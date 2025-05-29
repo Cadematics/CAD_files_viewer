@@ -1,12 +1,47 @@
-# React + Vite
+# 📐 React Three Fiber DXF & OBJ Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web-based 3D model viewer built with **React Three Fiber**, allowing users to upload and visualize **DXF** and **OBJ** files directly in the browser.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Upload and render **DXF** (AutoCAD) files.
+- Upload and render **OBJ** (Wavefront) files.
+- Interactive 3D view with pan and zoom controls.
+- Scales and centers models automatically.
+- Simple and intuitive Material-UI interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Supported Formats
+- `.dxf` (Drawing Exchange Format)
+- `.obj` (Wavefront OBJ)
 
-## Expanding the ESLint configuration
+## 🖥️ How to Use
+1. Clone the repository:
+    ```bash
+    git clone git@github.com:yourusername/your-repo.git
+    cd your-repo
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
+4. Open the app in your browser at:
+    ```
+    http://localhost:5173
+    ```
+5. Click **Open DXF file** or **Open OBJ file** to upload and view your model.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Technologies Used
+- React Three Fiber (`@react-three/fiber`, `three`)
+- drei (`@react-three/drei`)
+- Material-UI (`@mui/material`)
+- suspend-react (`suspend-react`)
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 🌟 Contributions
+Feel free to open issues or pull requests to improve this project!
+
